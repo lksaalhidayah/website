@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LKSA AL HIDAYAH</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script>
+    const slider = document.getElementById('slider');
+    let index = 0;
+  
+    setInterval(() => {
+      index++;
+      if (index > 2) index = 0; // Ganti 2 sesuai jumlah gambar - 1
+      slider.style.transform = `translateX(-${index * 100}%)`;
+    }, 3000); // 3 detik geser
+  </script>
+   <button class="nav left" onclick="prevSlide()">❮</button>
+   <button class="nav right" onclick="nextSlide()">❯</button>
+ </section>
+</head>
+<body>
+  <!-- Header & Navbar -->
+  <header>
+    <div class="logo">
+      <img src="LKSA Al Hidayah_20250325_145212_0000.png" alt="Logo LKSA">
+      <h1>LKSA AL HIDAYAH</h1>
+    </div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#visi-misi">Visi & Misi</a>
+      <a href="#tentang">Tentang Kami</a>
+      <a href="#pengurus">Pengurus</a>
+      <a href="#kegiatan">Kegiatan</a>
+      <a href="#kontak">Kontak Kami</a>
+    </nav>
+  </header>
+
+  <!-- Home Section dengan Slider -->
+  <section class="slider-container">
+    <div class="slider" id="slider">
+      <img src="k1.jpg" alt="Kegiatan 1" class="slide-img">
+      <img src="k2.jpg" alt="Kegiatan 2" class="slide-img">
+      <img src="k3.jpg" alt="Kegiatan 3" class="slide-img">
+      <img src="k4.jpg" alt="Kegiatan 3" class="slide-img">
+      <img src="k5.jpg" alt="Kegiatan 3" class="slide-img">
+      <img src="k6.jpg" alt="Kegiatan 3" class="slide-img">
+      <img src="k7.jpg" alt="Kegiatan 3" class="slide-img">
+      <img src="k8.jpg" alt="Kegiatan 3" class="slide-img">
+      <img src="k9.jpg" alt="Kegiatan 3" class="slide-img">
+    </div>
+  </section>
+
+  <!-- Visi & Misi -->
+  <section id="visi-misi">
+    <h2>Visi</h2>
+    <div class="grid visi">
+      <div class="card"><i class="fas fa-heart"></i><p>Menjadi lembaga terpercaya dalam pengasuhan dan pemberdayaan anak atim dan dhuafa</p></div>
+      <div class="card"><i class="fas fa-book"></i><p>Mewujudkan generasi yang berakhlak, mandiri, dan berdaya saing</p></div>
+      <div class="card"><i class="fas fa-home"></i><p>Menjadi wadah utama bagi masyarakat dan donatur dalam menyalurkan kepedulian sosial</p></div>
+      <div class="card"><i class="fas fa-hand-holding-heart"></i><p>Membangun lingkungan sosial yang peduli, harmonis, dan berkeadilan</p></div>
+    </div>
+    <h2>Misi</h2>
+    <div class="grid misi">
+      <div class="card"><i class="fas fa-users"></i><p>Menyelenggarakan program santunan, pendidikan, dan pembinaan berkelanjutan untuk anak yatim dan dhuafa</p></div>
+      <div class="card"><i class="fas fa-chalkboard-teacher"></i><p>Meningkatkan kualitas pelayanan lembaga secara profesional dan amanah</p></div>
+      <div class="card"><i class="fas fa-leaf"></i><p>Menjalin kemitraan strategis dengan masyarakat, donatur, dan pihak terkait</p></div>
+      <div class="card"><i class="fas fa-handshake"></i><p>Mendorong kemandirian anak melalui pelatihan keterampilan dan pembinaan karakter Islami</p></div>
+    </div>
+  </section>
+
+  <!-- Tentang Kami -->
+  <section id="tentang">
+    <div class="about">
+      <img src="LKSA Al Hidayah_20250325_145212_0000.png" alt="Profil LKSA">
+      <div class="text">
+        <h2>Tentang LKSA AL HIDAYAH</h2>
+        <p>LKSA (Lembaga Kesejahteraan Sosial Anak) Al Hidayah adalah lembaga sosial yang berlokasi di Dusun Setangi, Desa Malaka, Kecamatan Pemenang. Lembaga ini hadir sebagai wadah untuk membantu dan memberdayakan anak-anak yatim dan dhuafa melalui program santunan, pembinaan, dan pendidikan. Sebagai satu-satunya LKSA di Desa Malaka, Al Hidayah berkomitmen untuk menjadi jembatan antara para donatur dan penerima manfaat, dengan mengedepankan nilai amanah, transparansi, dan kepedulian sosial.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pengurus -->
+ <section id="pengurus">
+  <h2>Pengurus LKSA AL HIDAYAH</h2>
+  <div class="pengurus-grid">
+    <div class="pengurus-card">
+      <img src="a6.jpg" alt="Ketua">
+      <div class="info">
+        <h4>Hamam, S. Pd</h4>
+        <h5>Ketua</h5>
+        <a href="https://wa.me/+6285338247081" target="_blank">📱 WhatsApp</a>
+        <a href="https://www.instagram.com/hamamdq?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">📷 Instagram</a>
+      </div>
+    </div>
+    <div class="pengurus-card">
+      <img src="a7.jpg" alt="Pengurus 2">
+      <div class="info">
+        <h4>Imran Hafizurrahman</h4>
+        <h5>Sekretaris</h5>
+        <a href="https://wa.me/+6287716386010" target="_blank">📱 WhatsApp</a>
+        <a href="https://www.instagram.com/imf_iz/" target="_blank">📷 Instagram</a>
+      </div>
+    </div>
+    <div class="pengurus-card">
+      <img src="a4.jpg" alt="Pengurus 3">
+      <div class="info">
+        <h4>Ruba'i</h4>
+        <h5>Bendahara</h5>
+        <a href="https://wa.me/+6285903126858" target="_blank">📱 WhatsApp</a>
+        <a href="https://www.instagram.com/rubaibaok/" target="_blank">📷 Instagram</a>
+      </div>
+    </div>
+    <div class="pengurus-card">
+      <img src="a2.jpg" alt="Pengurus 4">
+      <div class="info">
+        <h4>Saiful Bahri</h4>
+        <h5>Koordinator Humas</h5>
+        <a href="https://wa.me/+6287864299155" target="_blank">📱 WhatsApp</a>
+        <a href="https://www.instagram.com/asani9048/" target="_blank">📷 Instagram</a>
+      </div>
+    </div>
+    <div class="pengurus-card">
+      <img src="a1.jpg" alt="Pengurus 5">
+      <div class="info">
+        <h4>Marzuki Yusuf</h4>
+        <h5>Koordinator Dana & Donasi </h5>
+        <a href="https://wa.me/+6287857906530" target="_blank">📱 WhatsApp</a>
+        <a href="https://web.facebook.com/profile.php?id=100073361236494&locale=id_ID" target="_blank">ⓕ facebook</a>
+      </div>
+    </div>
+    <div class="pengurus-card">
+      <img src="a8.jpg" alt="Pengurus 6">
+      <div class="info">
+        <h4>Dedi Sukardi</h4>
+        <h5>Koordinator Pendidikan & pembinaan</h5>
+        <a href="https://wa.me/+6281939296944" target="_blank">📱 WhatsApp</a>
+        <a href="https://web.facebook.com/dedisukardi.dedisukardi.9?locale=id_ID" target="_blank">ⓕ facebook</a>
+      </div>
+    </div>
+    <div class="pengurus-card">
+      <img src="a3.jpg" alt="Pengurus 7">
+      <div class="info">
+        <h4>Akmaludin</h4>
+        <h5>Koordinator Dana & Donasi</h5>
+        <a href="https://wa.me/+6282341816164" target="_blank">📱 WhatsApp</a>
+        <a href="https://web.facebook.com/maldy.dowang?locale=id_ID" target="_blank">ⓕ facebook</a>
+      </div>
+    </div>
+    <div class="pengurus-card">
+      <img src="a5.jpg" alt="Pengurus 8">
+      <div class="info">
+        <h4>M. Sahrul Hadi, S. Sos</h4>
+        <h5>Koordinator Sosial & Kesejahteraan</h5>
+        <a href="https://wa.me/+6287766913345" target="_blank">📱 WhatsApp</a>
+        <a href="https://www.instagram.com/sahrulhadi72/" target="_blank">📷 Instagram</a>
+      </div>
+    </div>
+    <!-- Tambahkan pengurus lainnya -->
+  </div>
+</section>
+
+  <!-- Kegiatan -->
+  <!DOCTYPE html>
+  <html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Dokumentasi Kegiatan - LKSA AL HIDAYAH</title>
+    <style>
+      body {
+        font-family: 'Segoe UI', sans-serif;
+        background: #f8fafc;
+        margin: 0;
+        padding: 0;
+        color: #333;
+      }
+  
+      section {
+        padding: 3rem 1.5rem;
+        max-width: 1000px;
+        margin: auto;
+      }
+  
+      h2 {
+        text-align: center;
+        font-size: 2rem;
+        color: #166534;
+        margin-bottom: 1rem;
+      }
+  
+      p {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+  
+      /* Galeri kegiatan */
+      .kegiatan-galeri {
+        display: flex;
+        overflow-x: auto;
+        gap: 1.5rem;
+        padding: 1rem 0;
+        scroll-snap-type: x mandatory;
+      }
+  
+      .kegiatan-item {
+        flex: 0 0 auto;
+        width: 220px;
+        text-align: center;
+        scroll-snap-align: start;
+      }
+  
+      .kegiatan-item img {
+        width: 100%;
+        height: 140px;
+        object-fit: cover;
+        border-radius: 1rem;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        cursor: pointer;
+        transition: transform 0.3s ease;
+      }
+  
+      .kegiatan-item img:hover {
+        transform: scale(1.05);
+      }
+  
+      .kegiatan-item p {
+        margin-top: 0.5rem;
+        font-weight: 500;
+        color: #333;
+      }
+  
+      /* Tombol kegiatan yang akan datang */
+      .kegiatan-tombol-wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+      }
+  
+      .kegiatan-tombol {
+        background-color: #facc15;
+        color: #111;
+        padding: 1rem 2.5rem;
+        font-size: 1.1rem;
+        font-weight: bold;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: background 0.3s, box-shadow 0.3s;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+  
+      .kegiatan-tombol:hover {
+        background-color: #eab308;
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+      }
+  
+      /* Popup Gambar */
+      .popup-gambar {
+        display: none;
+        position: fixed;
+        z-index: 2000;
+        top: 0; left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0,0,0,0.8);
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .popup-gambar-isi {
+        max-width: 90%;
+        max-height: 90%;
+        border-radius: 1rem;
+        box-shadow: 0 0 20px rgba(255,255,255,0.2);
+      }
+  
+      .tutup-popup {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        font-size: 3rem;
+        color: white;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+  
+    <section id="kegiatan">
+      <h2>Kegiatan</h2>
+      <p>Beberapa dokumentasi kegiatan dari LKSA AL HIDAYAH:</p>
+  
+      <!-- Galeri Dokumentasi Kegiatan -->
+      <div class="kegiatan-galeri">
+        <div class="kegiatan-item">
+          <img src="k1.jpg" alt="Kegiatan 1" onclick="bukaPopup(this.src)">
+          <p>Santunan Anak Yatim Perdana</p>
+        </div>
+        <div class="kegiatan-item">
+          <img src="k3.jpg" alt="Kegiatan 2" onclick="bukaPopup(this.src)">
+          <p>Santunan Anak Yatim Kedua</p>
+        </div>
+        <div class="kegiatan-item">
+          <img src="k5.jpg" alt="Kegiatan 3" onclick="bukaPopup(this.src)">
+          <p>Santunan Anak Yatim Ketiga</p>
+        </div>
+        <div class="kegiatan-item">
+          <img src="k8.jpg" alt="Kegiatan 4" onclick="bukaPopup(this.src)">
+          <p>Santunan Dhuafa Perdana</p>
+      </div>
+  
+      <!-- Tombol Kegiatan yang Akan Datang -->
+      <div class="kegiatan-tombol-wrapper">
+        <a href="https://drive.google.com/file/d/1yaarElQsiu4KYy282sg0Tp8uQEaRVy22/view" target="_blank" class="kegiatan-tombol">
+          📄 Kegiatan yang Akan Datang
+        </a>
+      </div>
+    </section>
+  
+    <!-- Popup Gambar Besar -->
+    <div id="popup-gambar" class="popup-gambar">
+      <span class="tutup-popup" onclick="tutupPopup()">&times;</span>
+      <img class="popup-gambar-isi" id="gambar-popup">
+    </div>
+  
+    <script>
+      function bukaPopup(src) {
+        document.getElementById("gambar-popup").src = src;
+        document.getElementById("popup-gambar").style.display = "flex";
+      }
+  
+      function tutupPopup() {
+        document.getElementById("popup-gambar").style.display = "none";
+      }
+    </script>
+  
+  </body>
+  </html>
+  
+
+
+  <!-- Kontak Kami -->
+  <section id="kontak">
+    <h2>Kontak Kami</h2>
+    <ul class="kontak-list">
+      <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/+6283146512150">WhatsApp</a></li>
+      <li><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/lksa.alhidayah?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">📷 @lksa.alhidayah</a></li>
+      <li><i class="fab fa-facebook"></i> <a href="https://web.facebook.com/lksa.al.hidayah.2025/?locale=id_ID">ⓕ Lksa AL Hidayah</a></li>
+      <li><i class="fas fa-envelope"></i> <a href="mailto:yayasanalhidayahsetangi@gmail.com">Email</a></li>
+    </ul>
+    <h3>Alamat Kami</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3489.126607559458!2d116.03880927444422!3d-8.454150785448544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcde90013b22a31%3A0xfb20f8e3ef4ea5cf!2sLKSA%20AL%20HIDAYAH!5e1!3m2!1sid!2sid!4v1744292435096!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+</iframe>
+
+    <div class="data-donasi">
+      <a class="btn" href="https://drive.google.com/drive/folders/1ekAYX4QIsdUX1hfEIvxv8CH5RVrLxzcR" target="_blank">Download Data Anak Yatim & Dhuafa</a>
+  </section>
+
+  <!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Donasi LKSA AL HIDAYAH</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fefce8;
+      margin: 0;
+      padding: 0;
+    }
+
+    section#donasi {
+      padding: 3rem 2rem;
+      text-align: center;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    section#donasi h2 {
+      font-size: 2.2rem;
+      color: #166534;
+      margin-bottom: 0.5rem;
+    }
+
+    section#donasi p {
+      font-size: 1.1rem;
+      color: #444;
+      margin-bottom: 2rem;
+    }
+
+    .donasi-btn {
+      background-color: #facc15;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 2rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s ease;
+      margin: 0.5rem;
+    }
+
+    .donasi-btn:hover {
+      background-color: #eab308;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .donasi-box {
+      display: none;
+      background-color: #fff;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      margin-top: 1rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .donasi-box p {
+      margin: 0.5rem 0;
+      font-size: 1rem;
+      color: #333;
+    }
+
+    .donasi-box img {
+      max-width: 200px;
+      margin-top: 1rem;
+      border-radius: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <section id="donasi">
+    <h2>Donasi</h2>
+    <p>Dukung kami dengan berdonasi melalui rekening bank atau dompet digital berikut:</p>
+
+    <!-- Tombol dan Konten BNI -->
+    <button class="donasi-btn" onclick="toggleBNI()">💳 Donasi via Bank BNI</button>
+    <div id="bniBox" class="donasi-box">
+      <p><strong>Bank:</strong> BNI</p>
+      <p><strong>Nomor Rekening:</strong> 0803929803</p>
+      <p><strong>Atas Nama:</strong> sdr. Rubai</p>
+    </div>
+
+    <!-- Tombol dan Konten Dana -->
+    <button class="donasi-btn" onclick="toggleDana()">📱 Donasi via Dana</button>
+    <div id="danaBox" class="donasi-box">
+      <p>Kirim Ke Nomor 087716386010 atau Scan kode QR di bawah ini untuk berdonasi melalui Dana:</p>
+      <img src="QR.jpg" alt="QR Code Dana">
+    </div>
+  </section>
+
+  <script>
+    function toggleBNI() {
+      const box = document.getElementById("bniBox");
+      box.style.display = (box.style.display === "block") ? "none" : "block";
+    }
+
+    function toggleDana() {
+      const box = document.getElementById("danaBox");
+      box.style.display = (box.style.display === "block") ? "none" : "block";
+    }
+  </script>
+</body>
+</html>
+
+  <footer>
+    <p>&copy; 2025 LKSA AL HIDAYAH - All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
